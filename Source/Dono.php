@@ -1,10 +1,14 @@
 <?php
 
-interface DonoInterface{
-    public function __construct($nome, $sobreNome, $email);
-    public function getNome();
-    public function getSobreNome();
-    public function getEmail();}
+//interface DonoInterface{
+//    public function __construct($nome, $sobreNome, $email);
+//    public function getNome();
+//    public function getSobreNome();
+//    public function getEmail();}
+
+
+namespace Source;
+include 'DonoInterface.php';
 class Dono implements DonoInterface{
     private $nome;
     private $sobreNome;

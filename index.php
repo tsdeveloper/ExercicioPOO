@@ -1,5 +1,5 @@
 <?php
-
+use Source\Dono;
 require_once 'Source\Dono.php';
 require_once 'Source\Animal.php';
 
